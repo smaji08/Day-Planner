@@ -27,13 +27,15 @@ body {
   
   .time-block{
     text-align: center;
+    padding-top: 10px;
     border-radius: 15px;
   }
   
   .row {
     white-space: pre-wrap;
     height: 80px;
-    border-top: 1px solid white;;
+    border-top: 1px solid white;
+    /* background:wheat; */
   }
   
   .hour {
@@ -63,10 +65,14 @@ body {
     border-bottom-right-radius: 15px;
     background-color: #06AED5;
     color: white;
+    cursor: pointer;
+    
   }
   
   .saveBtn i:hover {
     font-size: 20px;
     transition: all .3s ease-in-out;
+    
+    
   }
   
