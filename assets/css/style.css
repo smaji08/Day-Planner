@@ -9,8 +9,13 @@ body {
     border: none;
     resize: none;
     color: #000000;
-    border-left: 1px solid black;
+    /* border-left: 1px solid black; */
     padding: 10px;
+    width: 600px;
+  }
+
+  textarea:focus{
+    outline: none;
   }
   
   .jumbotron {
@@ -69,9 +74,10 @@ body {
     
   }
   
-  .saveBtn i:hover {
+  .saveBtn:hover {
     font-size: 20px;
     transition: all .3s ease-in-out;
+    background-color: rgb(6, 143, 173);
     
     
   }
